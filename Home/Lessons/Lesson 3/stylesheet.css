@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'Double';
+    src: url('Double-Regular.eot');
+    src: url('Double-Regular.eot?#iefix') format('embedded-opentype'),
+        url('Double-Regular.woff2') format('woff2'),
+        url('Double-Regular.woff') format('woff'),
+        url('Double-Regular.ttf') format('truetype'),
+        url('Double-Regular.svg#Double-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
