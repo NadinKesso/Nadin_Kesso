@@ -1,0 +1,9 @@
+div {
+    width: 400px;
+    height: 300px;
+    border: 100px solid transparent;
+    padding: 2rem;
+    margin: 50px auto;
+    border-image-source: url(ramka.png);
+    border-image-slice: 100;
+}
