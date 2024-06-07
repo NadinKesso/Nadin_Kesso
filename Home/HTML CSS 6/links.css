@@ -1,0 +1,81 @@
+/* img {
+    background-position: center center;
+}
+
+a {
+    vertical-align: 15px;
+    padding: 0px 10px;
+    color: green;
+}
+
+a:hover {
+    color: red;
+} */
+
+.v1 a {
+    vertical-align: 15px;
+    padding: 0px 10px;
+    color: green
+}
+
+.v1 a:hover {
+    color: red;
+}
+
+.v2 a {
+    border-right: solid 3px red;
+    vertical-align: 15px;
+    padding: 10px 10px;
+    color: green
+}
+
+.v2 a:hover {
+    color: red;
+}
+
+.v2 a:nth-child(5) {
+    border: 0px;
+}
+
+.v3 a {
+    vertical-align: 15px;
+    padding: 10px 10px;
+    color: green
+}
+
+.v3 a:hover {
+    color: red;
+}
+
+.v3 a::after {
+    content: url(red.png);
+    position: relative;
+    top: 10px;
+    margin-left: 15px;
+
+
+}
+
+.v3 a:nth-child(5)::after {
+    content: none;
+}
+
+p {
+    color: grey;
+    font-style: italic;
+}
+
+.v4 a {
+    padding: 0px 10px;
+    color: green
+}
+
+.v4 a:hover {
+    color: red;
+}
+
+.v4 th {
+    width: 1px;
+    height: 40px;
+    background-color: red;
+}
