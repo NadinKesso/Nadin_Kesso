@@ -1,0 +1,38 @@
+p {
+    background-color: rgb(255, 255, 255);
+    padding: 5px;
+    margin: 5px;
+    box-sizing: border-box;
+    border-radius: 1px;
+    color: white;
+}
+
+* {
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+    vertical-align: baseline;
+}
+
+img {
+    width: 200px;
+}
+
+.div {
+    background: green;
+    width: 224px;
+    height: 456px;
+    padding: 12px
+}
+
+.header {
+    background-color: rgb(131, 180, 215);
+    text-align: center;
+    padding: 20px;
+}
+
+.footer {
+    background-color: rgb(131, 180, 215);
+    text-align: center;
+    padding: 20px;
+}

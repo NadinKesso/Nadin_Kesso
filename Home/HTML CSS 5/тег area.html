@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Карта изображений в HTML</title>
+</head>
+
+<body>
+    <img src="workplace.jpg" alt="workplace" usemap="#spacemap">
+    <map name="spacemap">
+        <area shape="rect" coords="260,250,400,355" href="tablet.html" target="_blank" alt="tablet">
+        <area shape="circle" coords="508,300,95" href="coffee.html" target="_blank" alt="coffee">
+        <area shape="poly" coords="415,70,475,55,565,90,550,170,520,210,430,215,440,160" href="coffeemaker.html"
+            target="_blank" alt="coffeemaker">
+
+        <!-- 
+            <img src="Football_in_Bloomington,_Indiana,_1995.jpg" alt="" usemap="#name">
+        <map name="name">
+            <area shape="" coords="" href="" alt="">
+
+            rect-прямоугольная область 
+            сircle-круглая форма
+            poly-многоугольная форма
+            default - определяет весь регион
+
+            coords 
+            х-горизонтальная ось
+            у- вертикальная сь
+
+           href-ссылка, то куда будет попадать пользователь приклике на область 
+            alt-указываем то, что будет изображено на области 
+        -->
+    </map>
+</body>
+
+</html>
