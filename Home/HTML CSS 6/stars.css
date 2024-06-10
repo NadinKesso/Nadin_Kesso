@@ -24,3 +24,16 @@ img:hover,
 img:hover~img {
     background: url(Star\ 1.png);
 }
+
+.star1:hover img {
+    background: url(Star\ 1.png);
+}
+
+.star1 img:hover~img {
+    background: none;
+}
+
+p {
+    color: grey;
+    font-style: italic;
+}
