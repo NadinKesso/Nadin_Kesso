@@ -1,3 +1,39 @@
+h1 {
+    font-style: bold;
+}
+
+.date {
+    color: green;
+}
+
+.year {
+    color: red;
+}
+
+.subtitle {
+    font-weight: 900;
+    color: blue;
+}
+
+div {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 6px;
+    padding-bottom: 20px;
+}
+
+p {
+    color: blue;
+    font-style: italic;
+}
+
+img {
+    float: left;
+}
+
+img:nth-of-type() a {
+    font-weight: 900;
+}
+
 table.CHESS {
     border-collapse: collapse;
 }
@@ -44,40 +80,4 @@ tr:last-child td:nth-child(even),
 tr:last-child td:nth-child(odd) {
     height: 10px;
     background-color: greenyellow;
-}
-
-h1 {
-    font-style: bold;
-}
-
-.date {
-    color: green;
-}
-
-.year {
-    color: red;
-}
-
-.subtitle {
-    font-weight: 900;
-    color: blue;
-}
-
-div {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    margin: 6px;
-    padding-bottom: 20px;
-}
-
-p {
-    color: blue;
-    font-style: italic;
-}
-
-.subtitle::before {
-    content: url(extref.png);
-}
-
-a {
-    font-weight: 900;
 }
