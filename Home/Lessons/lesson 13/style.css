@@ -1,0 +1,69 @@
+.header,
+.footer {
+  height: 50px;
+  background-color: aqua;
+}
+
+
+.menu {
+  background-color: red;
+  float: left;
+  width: 200px;
+  height: 200px;
+}
+
+.banner {
+  float: right;
+  background-color: blue;
+  width: 200px;
+  height: 200px;
+}
+
+.content {
+  background-color: grey;
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.wrap {
+  background-color: orange;
+}
+
+.clearfix::after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+@media all and (max-width: 1400px) {
+
+  .header,
+  .footer {
+    background-color: black;
+  }
+}
+
+@media all and (max-width: 1010px) {
+
+  .content {
+    width: 400px;
+
+  }
+}
+
+@media all and (max-width: 900px) {
+
+  .content {
+    width: auto;
+  }
+
+  .menu,
+  .banner {
+    width: auto;
+    float: none;
+  }
+}

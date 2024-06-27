@@ -2,79 +2,93 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Links</title>
-    <link rel="stylesheet" href="links.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Links</title>
+  <link rel="stylesheet" href="links.css">
 </head>
 
 <body>
-    <a href="all.html">&larr; Назад</a>
-    <br>
-    <p>пояснения смотреть в HTML-комментариях</p>
-    <br>
-    <div class="v1">
-        <a href="http://fe.it-academy.by/Cabinet/">первая ссылка</a>
-        <img src="red.png" alt="red">
-        <a href="http://fe.it-academy.by/Cabinet/">вторая ссылка</a>
-        <img src="red.png" alt="red">
-        <a href="http://fe.it-academy.by/Cabinet/">третья ссылка</a>
-        <img src="red.png" alt="red">
-        <a href="http://fe.it-academy.by/Cabinet/">четвертая ссылка</a>
-        <img src="red.png" alt="red">
-        <a href="http://fe.it-academy.by/Cabinet/">пятая ссылка</a>
-        <!-- 
-        В данном варианте для разделителей использованы изображения.
-        Недостатки используемых инструментов: 
-       1. чтобы загрузить изображение, необходим запрос на сервер, тем самым мы создаем нагрузку на странице
-       2. если завтра дизайнер скажет менять цвет разделителя, придется потратить время на их замену 
-        -->
-    </div>
-    <br>
-    <hr>
-    <br>
-    <div class="v2">
-        <a href="http://fe.it-academy.by/Cabinet/">первая ссылка</a>
-        <a href="http://fe.it-academy.by/Cabinet/">вторая ссылка</a>
-        <a href="http://fe.it-academy.by/Cabinet/">третья ссылка</a>
-        <a href="http://fe.it-academy.by/Cabinet/">четвертая ссылка</a>
-        <a href="http://fe.it-academy.by/Cabinet/">пятая ссылка</a>
-        <!-- 
-        В данном варианте для разделителей использован border-right. 
-        -->
-    </div>
-    <br>
-    <hr>
-    <div class="v3">
-        <a href="http://fe.it-academy.by/Cabinet/">первая ссылка</a>
-        <a href="http://fe.it-academy.by/Cabinet/">вторая ссылка</a>
-        <a href="http://fe.it-academy.by/Cabinet/">третья ссылка</a>
-        <a href="http://fe.it-academy.by/Cabinet/">четвертая ссылка</a>
-        <a href="http://fe.it-academy.by/Cabinet/">пятая ссылка</a>
-        <!-- 
-        В данном варианте для разделителей использован стилевой селектор псевдоэлемента ::after.
-        -->
-    </div>
-    <hr>
-    <div class="v4">
-        <table>
-            <tr>
-                <td><a href="http://fe.it-academy.by/Cabinet/">первая ссылка</a></td>
-                <th></th>
-                <td><a href="http://fe.it-academy.by/Cabinet/">вторая ссылка</a></td>
-                <th></th>
-                <td><a href="http://fe.it-academy.by/Cabinet/">третья ссылка</a></td>
-                <th></th>
-                <td><a href="http://fe.it-academy.by/Cabinet/">четвертая ссылка</a></td>
-                <th></th>
-                <td><a href="http://fe.it-academy.by/Cabinet/">пятая ссылка</a></td>
-            </tr>
-        </table>
-        <!-- 
-        В данном варианте использовалась табличная вертска.
-        Недостатки: не адаптивен под разные разрешенияэ.
-        -->
-    </div>
+  <a href="all.html">&larr; Назад</a>
+  <br>
+  <p>Вариант 1.<br>В данном варианте для разделителей использованы изображения.<br>Недостатки используемых инструментов:
+    <br>1. чтобы загрузить изображение, необходим запрос на сервер, тем самым мы создаем нагрузку на странице
+    <br>2. если завтра дизайнер скажет менять цвет разделителя, придется потратить время на их замену
+  </p>
+  <br>
+  <div class="v1">
+    <a href="http://fe.it-academy.by/Cabinet/">первая ссылка</a>
+    <img src="red.png" alt="red">
+    <a href="http://fe.it-academy.by/Cabinet/">вторая ссылка</a>
+    <img src="red.png" alt="red">
+    <a href="http://fe.it-academy.by/Cabinet/">третья ссылка</a>
+    <img src="red.png" alt="red">
+    <a href="http://fe.it-academy.by/Cabinet/">четвертая ссылка</a>
+    <img src="red.png" alt="red">
+    <a href="http://fe.it-academy.by/Cabinet/">пятая ссылка</a>
+
+  </div>
+  <br>
+  <hr>
+  <br>
+  <p>Вариант 2.<br> В данном варианте для разделителей использован border-right.
+  </p>
+  <div class="v2">
+    <a href="http://fe.it-academy.by/Cabinet/">первая ссылка</a>
+    <a href="http://fe.it-academy.by/Cabinet/">вторая ссылка</a>
+    <a href="http://fe.it-academy.by/Cabinet/">третья ссылка</a>
+    <a href="http://fe.it-academy.by/Cabinet/">четвертая ссылка</a>
+    <a href="http://fe.it-academy.by/Cabinet/">пятая ссылка</a>
+
+  </div>
+  <br>
+  <hr>
+  <p>Вариант 3.<br>В данном варианте для разделителей использован стилевой селектор псевдоэлемента ::after.
+  </p>
+  <div class="v3">
+    <a href="http://fe.it-academy.by/Cabinet/">первая ссылка</a>
+    <a href="http://fe.it-academy.by/Cabinet/">вторая ссылка</a>
+    <a href="http://fe.it-academy.by/Cabinet/">третья ссылка</a>
+    <a href="http://fe.it-academy.by/Cabinet/">четвертая ссылка</a>
+    <a href="http://fe.it-academy.by/Cabinet/">пятая ссылка</a>
+
+  </div>
+  <hr>
+  <p>Вариант 4.<br>В данном варианте использовалась табличная вертска.<br>
+    Недостатки: не адаптивен под разные разрешенияэ.
+  </p>
+  <div class="v4">
+    <table>
+      <tr>
+        <td><a href="http://fe.it-academy.by/Cabinet/">первая ссылка</a></td>
+        <th></th>
+        <td><a href="http://fe.it-academy.by/Cabinet/">вторая ссылка</a></td>
+        <th></th>
+        <td><a href="http://fe.it-academy.by/Cabinet/">третья ссылка</a></td>
+        <th></th>
+        <td><a href="http://fe.it-academy.by/Cabinet/">четвертая ссылка</a></td>
+        <th></th>
+        <td><a href="http://fe.it-academy.by/Cabinet/">пятая ссылка</a></td>
+      </tr>
+    </table>
+  </div>
+  <br>
+  <hr>
+  <p>Вариант 5.<br>В данном варианте использовались li.
+  </p>
+  <div class="v5">
+    <ul class="v5__list">
+      <li class="v5__item">первая ссылка</li>
+      <li class="v5__empty">.</li>
+      <li class="v5__item">вторая ссылка</li>
+      <li class="v5__empty">.</li>
+      <li class="v5__item">третья ссылка</li>
+      <li class="v5__empty">.</li>
+      <li class="v5__item">четвертая ссылка</li>
+      <li class="v5__empty">.</li>
+      <li class="v5__item">пятая ссылка</li>
+    </ul>
+  </div>
 </body>
 
 </html>
