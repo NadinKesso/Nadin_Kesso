@@ -1,0 +1,16 @@
+@media all and (max-width: 670px) {
+  .div__banner {
+    visibility: hidden;
+  }
+
+  .div__menu {
+    float: none;
+    width: auto;
+  }
+
+  .content {
+    margin: 0 auto;
+    width: auto;
+
+  }
+}
