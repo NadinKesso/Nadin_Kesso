@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Form</title>
+</head>
+
+<body>
+  <!-- API - Application Programming Interface Программный интерфес приложения-— это набор способов и правил, по которым различные программы общаются между собой и обмениваются данными.
+    Подход REST API - интерфейс,используемые двумя компьютерными системами для безопасного обмена информацией через Интернет. 
+    
+    Например, делаем сервис , который называется user.php  с разными методами запроса  post, get, delete, put, option, update и тд.
+    action- создает URL-скрипта-обработчика - серверного скрипта, обрабатывает введенные пользователем данные и вернет ответ в виде новой веб-страницыб содержащей результат обработки -->
+
+  <form action="https://fe.it-academy.by/TestForm.php" method="get">
+    name: <input type="text" name="lastname"><br>
+    age:<input type="number" name="firstname"><br>
+    <input type="submit"><br>
+    <!-- https://fe.it-academy.by/TestForm.php?lastname=иван&firstname=12   в строке  видно записи "?lastname=иван&firstname=12" -->
+  </form>
+  <hr>
+
+  <form action="https://fe.it-academy.by/TestForm.php" method="post">
+    name: <input type="text" name="lastname"><br>
+    age:<input type="number" name="firstname"><br>
+    <input type="submit"><br>
+    <!-- https://fe.it-academy.by/TestForm.php   в строке не видно записи "?lastname=иван&firstname=12" -->
+  </form>
+  <hr>
+  <form action="https://fe.it-academy.by/TestForm.php" method="get">
+    bmw<input type="checkbox" name="cars[]" value="bmw"> <br>
+    mrec<input type="checkbox" name="cars[]" value="merc"> <br>
+    <!-- cars[]  ставим квадратные скобки - чтобы в массике овета были видны отдельно  bmw audi и тд-->
+  </form>
+  <hr>
+  <form action="https://fe.it-academy.by/TestForm.php" method="get">
+    <label>
+      bmw<input type="radio" name="cars2" value="bmw">
+    </label>
+    mrec<input type="radio" name="cars2" value="merc"> <br>
+    <hr>
+    bmw<input type="radio" name="cars3" value="bmw"> <br>
+    mrec<input type="radio" name="cars3" value="merc" checked> <br>
+    <input type="submit"><br>
+
+    <select name="city[]" multiple>
+      <optgroup label="Минская">
+        <option value="">Minsk</option>
+        <option value="">Brest</option>
+        <option value="">Lida</option>
+      </optgroup>
+      <optgroup label="Минская">
+        <option value="">Minsk1</option>
+        <option value="">Brest1</option>
+        <option value="">Lida1</option>
+      </optgroup>
+      <input type="submit"><br>
+  </form>
+  <hr>
+  user-select: none -чтобы не выделялось обласьь и не бесила
+
+  дз-'label- float ledt
+  div - ынутри него input , внутри интупа говорим ширина 100%, делаем марджин какой-то
+  '
+  </select>
+
+</body>
+
+</html>

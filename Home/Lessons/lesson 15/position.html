@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Position</title>
+  <style>
+    .wrap {
+      position: relative;
+    }
+
+    .wrap div {
+      width: 100px;
+      height: 100px;
+      position: absolute;
+
+    }
+
+    .wrap div:first-child {
+      background-color: red;
+      left: 40px;
+      top: 40px;
+    }
+
+    .wrap div:nth-child(2) {
+      background-color: green;
+      left: 60px;
+      top: 60px;
+
+    }
+
+    .wrap div:last-child {
+      background-color: blue;
+      left: 80px;
+      top: 80px;
+    }
+
+    .wrap div:hover {
+      z-index: 2;
+      width: 300px;
+      transition: 1;
+    }
+
+    .shadow {
+      width: 100vw;
+      height: 100vh;
+      background-color: rgba(0, 0, 0, 0.5);
+      position: fixed;
+      top: 0;
+      left: 0;
+    }
+
+    .popup {
+      background-color: #fff;
+      padding: 20px;
+      position: absolute;
+      left: 100px;
+      top: 100px;
+      bottom: 100px;
+      overflow: auto;
+    }
+  </style>
+</head>
+<!-- position:
+      static - любой элемент по умолчанию, располагаюся слева-направо, сверху-вниз (у div - статик)
+      relative - относительно спозиционированный
+      absolute - элемент берет свои координаты от ближайщего позиционировванного предка- это родительски   элемент, у которого есть любое позиионирование, кроме static. 
+      fixed - привязывается к окну браузера. и не занимает места в общем потоке элементов. 
+      sticky - привязывается к окну браузера, но не может выйти за пределы родителя. 
+
+    -->
+
+<body>
+  <div class="wrap">
+    <div></div>
+    <div></div>
+    <div></div>
+
+  </div>
+  <hr>
+
+  <div>
+    <div>
+      <img src=".." alt="">
+    </div>
+  </div>
+  <hr>
+  <div class="shadow">
+    <div class="popup">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque sint deleniti beatae et
+      asperiores, laboriosam nihil praesentium iure sapiente, quam dignissimos quisquam a. Ea deserunt obcaecati
+      voluptatum corporis placeat facilis?</div>
+  </div>
+
+
+</body>
+
+</html>

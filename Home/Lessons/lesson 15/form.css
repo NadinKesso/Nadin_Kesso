@@ -1,0 +1,74 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+
+h1 {
+  font-size: 48px;
+}
+
+h6 {
+  font-size: 16px;
+  font-style: italic;
+  font-weight: normal;
+  color: grey;
+}
+
+.contact {
+  border: solid 1px grey;
+  width: 800px;
+  padding: 30px;
+}
+
+label,
+select {
+  float: left;
+}
+
+input,
+select,
+{
+width: 100%;
+margin-bottom: 15px;
+
+}
+
+.contact div {
+  margin-left: 120px;
+}
+
+form {
+  position: relative;
+}
+
+.contact__p {
+  position: absolute;
+  top: -25px;
+  left: 20px;
+  background-color: #fff;
+  font-weight: bold;
+  padding: 0 10px;
+}
+
+span {
+  color: red;
+}
+
+.data {
+  border: solid 1px grey;
+  width: 800px;
+  padding: 30px;
+}
+
+.data__p {
+  position: absolute;
+  top: 175px;
+  left: 20px;
+  background-color: #fff;
+  font-weight: bold;
+  padding: 0 10px;
+}
+
+.data div {
+  margin-left: 120px;
+}

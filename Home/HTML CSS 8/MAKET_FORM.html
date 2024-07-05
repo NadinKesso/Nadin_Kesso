@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MAKET_FORM</title>
+  <link rel="stylesheet" href="MAKET_FORM.css">
+</head>
+
+<body>
+  <a href="../../index.html">&larr; Назад</a>
+  <br>
+  <br>
+  <form action="https://fe.it-academy.by/TestForm.php" method="post">
+    <fieldset style="border: double red 3px;">
+      <h4>Для публикации вашей статьи заполните, пожалуйста, следующую форму:
+      </h4>
+      <label for="NNN">Название статьи:
+      </label><br>
+      <input class="text" name="article_name" type="text" id="NNN" placeholder="Введите название статьи">
+      <br>
+      <label for="RRR">Рубрика:
+      </label>
+      <br>
+      <select class="select" name="posting_name" id="RRR">
+        <option name="posting_name" value="Программирование">Программирование</option>
+        <option name="posting_name" value="Графика и дизайн">Графика и дизайн</option>
+        <option name="posting_name" value="Компьютерная техника">Компьютерная техника</option>
+        <!-- какой писать value?? -->
+      </select>
+      <label for="CCC">Публикация:</label>
+      <br>
+      <input type="radio" name="publish_answer" value="на сайте">на сайте
+      <br>
+      <input type="radio" name="publish_answer" value="в журнале">в журнале
+      <br>
+      <input type="radio" name="publish_answer" value="на сайте и в журнале">на сайте и в журнале
+      <br>
+      <!-- какой писать  name  и  value?? -->
+      <br>
+      <label for="KKK">Разрешить комментарии:</label>
+      <input type="checkbox" name="checkbox" value="Разрешить комментарии" id="KKK"><br>
+      <!-- как сделать так, чтобы в переданных данных отобрадалось off/on для чекбокса ксли стоит  checked ?? -->
+
+      <br>
+      <label for="AAA">Текст статьи:</label><br>
+      <textarea name="comment" id="AAA"></textarea>
+      <!-- какой писать  name ?? -->
+      <input type="submit" name="" id="" value="Опубликовать">
+    </fieldset>
+  </form>
+  <br>
+  <br>
+
+  <form method="post" action="https://fe.it-academy.by/TestForm.php">
+    <fieldset style="border: double red 3px; width: 1000px;">
+      <h4>Для публикации вашей статьи заполните, пожалуйста, следующую форму:
+      </h4>
+      <div class="contact">
+        <label class="label">
+          Название статьи:
+        </label>
+        <div>
+          <input class="input" name="article_name" type="text" placeholder="Введите название статьи">
+        </div>
+
+        <label class="label"> Рубрика
+        </label>
+        <div>
+          <select style="width: 100%;" name="posting_name" id="RRR">
+            <option name="posting_name" value="Программирование">Программирование</option>
+            <option name="posting_name" value="Графика и дизайн">Графика и дизайн</option>
+            <option name="posting_name" value="Компьютерная техника">Компьютерная техника</option>
+            <!-- какой писать value?? -->
+          </select>
+        </div>
+        <br>
+        <label class="label">Публикация:
+        </label>
+        <div>
+          <input type="radio" name="publish_answer" value="на сайте">на сайте
+          <input type="radio" name="publish_answer" value="в журнале">в журнале
+          <input type="radio" name="publish_answer" value="на сайте и в журнале">на сайте и в журнале
+        </div>
+        <br>
+        <p class="label">Разрешить комментарии: </p>
+        <div>
+          <input type="checkbox" name="checkbox" value="Разрешить комментарии" checked>
+        </div>
+        <br>
+        <label for="AAA">Текст статьи:</label><br>
+        <textarea name="text" id="AAA"></textarea>
+        <!-- какой писать  name ?? -->
+        <input type="submit" name="" id="" value="Опубликовать">
+      </div>
+      <br>
+
+    </fieldset>
+
+  </form>
+
+</body>
+
+</html>

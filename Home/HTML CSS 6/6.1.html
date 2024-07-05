@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Picture</title>
+  <style>
+    span {
+      color: green;
+      font-weight: bold;
+      font-style: italic;
+      font-style: 32px;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+  </style>
+</head>
+
+<body>
+  <a href="all.html">&larr; Назад</a>
+  <br>
+  <h2>
+    Разберем, для чего нужен тег <span>picture</span>. <br>
+  </h2>
+  <p>Обычно мы вставляем картинки на сайте через тег <span>img</span>. Например вставим лого для сайта:</p>
+  <img style="width: 300px;" src="logo.png" alt="">
+  <p>Но что, если стоит задача на мобильных устройствах логотип видоизменить?
+    <br>Для этого можно использовать тег <span>picture</span> . Внутри него вставляем тег <span>img</span>. Также
+    прописываем тег <span>sourse</span> c атрибутом <span> srcset</span>.
+  </p>
+  <picture>
+    <source srcset="logo-mobile.png" media="(max-width:575px)">
+    <img style="width: 300px;" src="logo.png" alt="">
+  </picture>
+  <p>Но нам нужно, чтобы данная картинка показывалась только на мобильных устройствах.
+    <br> Для этого в теге <span>sourse</span> мы можем прописать атрибут <span>media</span>, который позволяет в себе
+    вызывать медиазапросы такиеже, как мы прописываем в css. Например я прописала <span>media=(max-width:575px)</span>,
+    поэтому лого буде подгружаться только тогда, когда ширина экрана будет меньше 575 px.
+  </p>
+  <hr>
+  <br>
+  <h2>Но что насчет retina display? </h2><br> Если мы работаем с png картинками, нам нужно позаботиться о retina, чтобы
+  показать картинку с плотностью пикселей в 2 раза больше. Если бы это было svg, никакой проблемы не было бы. <br>
+  Для этого прописывaем:
+  <br>
+  <br>
+  <img style="width: 800px;" src="Снимок экрана 2024-07-05 в 14.38.26.png" alt="">
+
+  <picture>
+    <source srcset="logo-mobile@1x.png 1x, logo-mobile@2x.png 2x" media="(max-width:575px)">
+    <img src="logo-desktop@1x.png" srcset="logo-desktop@2x.png 2x" alt="">
+  </picture>
+  <br>
+  <br>
+  <p>Также у тега <span>sourse</span> есть атрибут <span>type</span> в котором мы можем указывать тип(для чего он
+    нужен).
+    <br>Например у нас есть лого в формате png. И необходимо сделать так, чтобы
+    показывалось svg для тех, у кого поддерживается в браузере svg, а если в браузере не поддерживается svg-тогда
+    показывался png. <br> Тогда прописываем:
+  </p>
+  <br>
+  <img style="width: 800px;" src="Снимок экрана 2024-07-05 в 14.45.31.png" alt="">
+
+  <picture>
+    <source srcset="lOG.svg" type="img/svg">
+    <img src="lOG.png" alt="">
+  </picture>
+  <br>
+  <p>Таким образом, если браузер не поддерживаем svg он будет показывать лого в png формате. </p>
+</body>
+
+</html>
