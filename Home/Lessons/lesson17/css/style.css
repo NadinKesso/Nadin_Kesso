@@ -1,0 +1,1070 @@
+/* line 3, ../../../../../../../../../../../../../Users/nadinkesso/Desktop/Nadin_Kesso/Home/Lessons/lesson17/scss/style.scss */
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+/* line 7, ../../../../../../../../../../../../../Users/nadinkesso/Desktop/Nadin_Kesso/Home/Lessons/lesson17/scss/style.scss */
+.banner-sale {
+  background-color: #000;
+  text-align: center;
+  padding: 11px;
+}
+
+/* line 12, ../../../../../../../../../../../../../Users/nadinkesso/Desktop/Nadin_Kesso/Home/Lessons/lesson17/scss/style.scss */
+.banner-sale .banner-sale__text {
+  color: #fff;
+  font-size: 16px;
+}
+
+/* line 18, ../../../../../../../../../../../../../Users/nadinkesso/Desktop/Nadin_Kesso/Home/Lessons/lesson17/scss/style.scss */
+.container {
+  width: 1110px;
+  margin: 0 auto;
+}
+
+/* line 23, ../../../../../../../../../../../../../Users/nadinkesso/Desktop/Nadin_Kesso/Home/Lessons/lesson17/scss/style.scss */
+.header {
+  position: relative;
+  background: url(../images/Rectangle.png) no-repeat top center;
+  height: 900px;
+}
+
+/* line 28, ../../../../../../../../../../../../../Users/nadinkesso/Desktop/Nadin_Kesso/Home/Lessons/lesson17/scss/style.scss */
+.header .burger {
+  overflow: hidden;
+  display: none;
+}
+
+@media all and (max-width: 1240px) {
+  /* line 28, ../../../../../../../../../../../../../Users/nadinkesso/Desktop/Nadin_Kesso/Home/Lessons/lesson17/scss/style.scss */
+  .header .burger {
+    display: block;
+    position: absolute;
+    right: 100px;
+    top: 40px;
+  }
+}
+
+/* line 43, ../../../../../../../../../../../../../Users/nadinkesso/Desktop/Nadin_Kesso/Home/Lessons/lesson17/scss/style.scss */
+.header .container .header__inner {
+  position: relative;
+}
+
+/* line 47, ../../../../../../../../../../../../../Users/nadinkesso/Desktop/Nadin_Kesso/Home/Lessons/lesson17/scss/style.scss */
+.header .container .header__inner .menu {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+
+/* line 54, ../../../../../../../../../../../../../Users/nadinkesso/Desktop/Nadin_Kesso/Home/Lessons/lesson17/scss/style.scss */
+.header .container .header__inner .menu .menu-left {
+  display: flex;
+  width: 415px;
+  gap: 30px;
+}
+
+@media all and (max-width: 1586px) {
+  /* line 54, ../../../../../../../../../../../../../Users/nadinkesso/Desktop/Nadin_Kesso/Home/Lessons/lesson17/scss/style.scss */
+  .header .container .header__inner .menu .menu-left {
+    width: 376px;
+  }
+}
+
+@media all and (max-width: 1240px) {
+  /* line 54, ../../../../../../../../../../../../../Users/nadinkesso/Desktop/Nadin_Kesso/Home/Lessons/lesson17/scss/style.scss */
+  .header .container .header__inner .menu .menu-left {
+    overflow: hidden;
+    display: none;
+  }
+}
+
+/* line 69, ../../../../../../../../../../../../../Users/nadinkesso/Desktop/Nadin_Kesso/Home/Lessons/lesson17/scss/style.scss */
+.header .container .header__inner .menu .menu-left li {
+  text-transform: uppercase;
+  margin: 30px 0;
+}
+
+@media all and (max-width: 1240px) {
+  /* line 69, ../../../../../../../../../../../../../Users/nadinkesso/Desktop/Nadin_Kesso/Home/Lessons/lesson17/scss/style.scss */
+  .header .container .header__inner .menu .menu-left li {
+    overflow: hidden;
+    display: none;
+  }
+}
+
+/* line 80, ../../../../../../../../../../../../../Users/nadinkesso/Desktop/Nadin_Kesso/Home/Lessons/lesson17/scss/style.scss */
+.header .container .header__inner .menu .menu-right {
+  display: flex;
+  width: 325px;
+  gap: 30px;
+}
+
+/* line 88, ../../../../../../../../../../../../../Users/nadinkesso/Desktop/Nadin_Kesso/Home/Lessons/lesson17/scss/style.scss */
+.header .container .header__inner .menu .menu-right li {
+  text-transform: uppercase;
+  margin: 30px 0;
+}
+
+@media all and (max-width: 1240px) {
+  /* line 88, ../../../../../../../../../../../../../Users/nadinkesso/Desktop/Nadin_Kesso/Home/Lessons/lesson17/scss/style.scss */
+  .header .container .header__inner .menu .menu-right li {
+    overflow: hidden;
+    display: none;
+  }
+}
+
+/* line 100, ../../../../../../../../../../../../../Users/nadinkesso/Desktop/Nadin_Kesso/Home/Lessons/lesson17/scss/style.scss */
+.header .container .header__inner > img {
+  position: absolute;
+  left: 50%;
+  margin-left: -60.5px;
+  top: 70px;
+}
+
+@media all and (max-width: 1240px) {
+  /* line 100, ../../../../../../../../../../../../../Users/nadinkesso/Desktop/Nadin_Kesso/Home/Lessons/lesson17/scss/style.scss */
+  .header .container .header__inner > img {
+    left: 91px;
+    top: 30px;
+  }
+}
+
+/* line 114, ../../../../../../../../../../../../../Users/nadinkesso/Desktop/Nadin_Kesso/Home/Lessons/lesson17/scss/style.scss */
+.header h1 {
+  font-size: 85px;
+  margin-top: 190px;
+  margin-bottom: 405px;
+  text-align: center;
+}
+
+/* line 121, ../../../../../../../../../../../../../Users/nadinkesso/Desktop/Nadin_Kesso/Home/Lessons/lesson17/scss/style.scss */
+.header button {
+  width: 80px;
+  height: 80px;
+  border-radius: 100px;
+  border-style: none;
+  background: url(../images/arrow.png) no-repeat center center;
+  background-color: #000;
+  position: absolute;
+  left: 50%;
+  margin-left: -40px;
+}
+
+/* line 133, ../../../../../../../../../../../../../Users/nadinkesso/Desktop/Nadin_Kesso/Home/Lessons/lesson17/scss/style.scss */
+.header .navigation {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 320px;
+  height: 60px;
+  background-color: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  top: 840px;
+  bottom: 30px;
+  right: 30px;
+  border-radius: 100px;
+  padding: 0 20px;
+}
+
+/* line 147, ../../../../../../../../../../../../../Users/nadinkesso/Desktop/Nadin_Kesso/Home/Lessons/lesson17/scss/style.scss */
+.header .navigation ul {
+  display: flex;
+  gap: 20px;
+  padding: 20px 0px;
+}
+
+/* line 152, ../../../../../../../../../../../../../Users/nadinkesso/Desktop/Nadin_Kesso/Home/Lessons/lesson17/scss/style.scss */
+.header .navigation ul li {
+  font-size: 12px;
+  color: #fff;
+}
+
+/* line 158, ../../../../../../../../../../../../../Users/nadinkesso/Desktop/Nadin_Kesso/Home/Lessons/lesson17/scss/style.scss */
+.header .navigation div {
+  width: 62px;
+  height: 35px;
+  border-radius: 50px;
+  border-style: none;
+  background-color: #ffffff;
+  text-align: center;
+  padding: 9px 0px;
+}
+
+/* line 170, ../../../../../../../../../../../../../Users/nadinkesso/Desktop/Nadin_Kesso/Home/Lessons/lesson17/scss/style.scss */
+.box {
+  background-color: #ED7B49;
+}
+
+/* line 173, ../../../../../../../../../../../../../Users/nadinkesso/Desktop/Nadin_Kesso/Home/Lessons/lesson17/scss/style.scss */
+.box .container__slider {
+  margin: 0 auto;
+}
+
+/* line 178, ../../../../../../../../../../../../../Users/nadinkesso/Desktop/Nadin_Kesso/Home/Lessons/lesson17/scss/style.scss */
+.box .container__slider .slider .slider__title {
+  display: flex;
+  gap: 100px;
+  align-items: flex-end;
+  padding-top: 73px;
+  padding-bottom: 80px;
+  padding-left: 274px;
+  padding-right: 274px;
+}
+
+@media all and (max-width: 1586px) {
+  /* line 178, ../../../../../../../../../../../../../Users/nadinkesso/Desktop/Nadin_Kesso/Home/Lessons/lesson17/scss/style.scss */
+  .box .container__slider .slider .slider__title {
+    gap: 0px;
+  }
+}
+
+/* line 192, ../../../../../../../../../../../../../Users/nadinkesso/Desktop/Nadin_Kesso/Home/Lessons/lesson17/scss/style.scss */
+.box .container__slider .slider .slider__title img {
+  margin-right: 48px;
+}
+
+@media all and (max-width: 1586px) {
+  /* line 192, ../../../../../../../../../../../../../Users/nadinkesso/Desktop/Nadin_Kesso/Home/Lessons/lesson17/scss/style.scss */
+  .box .container__slider .slider .slider__title img {
+    width: 200px;
+  }
+}
+
+/* line 202, ../../../../../../../../../../../../../Users/nadinkesso/Desktop/Nadin_Kesso/Home/Lessons/lesson17/scss/style.scss */
+.box .container__slider .slider .slider__title .title h1 {
+  font-size: 85px;
+  font-weight: 800;
+  margin-bottom: 16px;
+}
+
+/* line 208, ../../../../../../../../../../../../../Users/nadinkesso/Desktop/Nadin_Kesso/Home/Lessons/lesson17/scss/style.scss */
+.box .container__slider .slider .slider__title .title p {
+  font-size: 16px;
+  width: 490px;
+  line-height: 130%;
+}
+
+/* line 217, ../../../../../../../../../../../../../Users/nadinkesso/Desktop/Nadin_Kesso/Home/Lessons/lesson17/scss/style.scss */
+.box .container__slider .slider .slider__wrap {
+  width: 100vw;
+  padding: 20px;
+  overflow-x: auto;
+}
+
+/* line 223, ../../../../../../../../../../../../../Users/nadinkesso/Desktop/Nadin_Kesso/Home/Lessons/lesson17/scss/style.scss */
+.box .container__slider .slider .slider__wrap .cards {
+  display: flex;
+  position: relative;
+  gap: 60px;
+  width: 2500px;
+  height: 800px;
+}
+
+/* line 230, ../../../../../../../../../../../../../Users/nadinkesso/Desktop/Nadin_Kesso/Home/Lessons/lesson17/scss/style.scss */
+.box .container__slider .slider .slider__wrap .cards .card1 {
+  margin-top: 170px;
+}
+
+/* line 235, ../../../../../../../../../../../../../Users/nadinkesso/Desktop/Nadin_Kesso/Home/Lessons/lesson17/scss/style.scss */
+.box .container__slider .slider .slider__wrap .cards .card1 button {
+  border-radius: 50px;
+  border-style: none;
+  background-color: #72A080;
+  text-align: center;
+  padding: 12px 47px;
+  color: #000;
+  text-transform: uppercase;
+  font-size: 18px;
+}
+
+/* line 247, ../../../../../../../../../../../../../Users/nadinkesso/Desktop/Nadin_Kesso/Home/Lessons/lesson17/scss/style.scss */
+.box .container__slider .slider .slider__wrap .cards .card1 .name {
+  position: absolute;
+  bottom: 20px;
+}
+
+/* line 251, ../../../../../../../../../../../../../Users/nadinkesso/Desktop/Nadin_Kesso/Home/Lessons/lesson17/scss/style.scss */
+.box .container__slider .slider .slider__wrap .cards .card1 .name h6 {
+  width: 277px;
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+/* line 259, ../../../../../../../../../../../../../Users/nadinkesso/Desktop/Nadin_Kesso/Home/Lessons/lesson17/scss/style.scss */
+.box .container__slider .slider .slider__wrap .cards .card1 .name p {
+  font-size: 18px;
+  font-weight: 600px;
+  margin-bottom: 22px;
+}
+
+/* line 272, ../../../../../../../../../../../../../Users/nadinkesso/Desktop/Nadin_Kesso/Home/Lessons/lesson17/scss/style.scss */
+.box .container__slider .slider .slider__wrap .cards .card2 button {
+  border-radius: 50px;
+  border-style: none;
+  background-color: #A95D50;
+  text-align: center;
+  padding: 12px 47px;
+  color: #000;
+  text-transform: uppercase;
+  font-size: 18px;
+}
+
+/* line 284, ../../../../../../../../../../../../../Users/nadinkesso/Desktop/Nadin_Kesso/Home/Lessons/lesson17/scss/style.scss */
+.box .container__slider .slider .slider__wrap .cards .card2 .name {
+  position: absolute;
+  bottom: 180px;
+}
+
+/* line 288, ../../../../../../../../../../../../../Users/nadinkesso/Desktop/Nadin_Kesso/Home/Lessons/lesson17/scss/style.scss */
+.box .container__slider .slider .slider__wrap .cards .card2 .name h6 {
+  width: 277px;
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+/* line 296, ../../../../../../../../../../../../../Users/nadinkesso/Desktop/Nadin_Kesso/Home/Lessons/lesson17/scss/style.scss */
+.box .container__slider .slider .slider__wrap .cards .card2 .name p {
+  font-size: 18px;
+  font-weight: 600px;
+  margin-bottom: 22px;
+}
+
+/* line 304, ../../../../../../../../../../../../../Users/nadinkesso/Desktop/Nadin_Kesso/Home/Lessons/lesson17/scss/style.scss */
+.box .container__slider .slider .slider__wrap .cards .card3 {
+  margin-top: 170px;
+}
+
+/* line 309, ../../../../../../../../../../../../../Users/nadinkesso/Desktop/Nadin_Kesso/Home/Lessons/lesson17/scss/style.scss */
+.box .container__slider .slider .slider__wrap .cards .card3 button {
+  border-radius: 50px;
+  border-style: none;
+  background-color: #ABAFD6;
+  text-align: center;
+  padding: 12px 47px;
+  color: #000;
+  text-transform: uppercase;
+  font-size: 18px;
+}
+
+/* line 321, ../../../../../../../../../../../../../Users/nadinkesso/Desktop/Nadin_Kesso/Home/Lessons/lesson17/scss/style.scss */
+.box .container__slider .slider .slider__wrap .cards .card3 .name {
+  position: absolute;
+  bottom: 20px;
+}
+
+/* line 325, ../../../../../../../../../../../../../Users/nadinkesso/Desktop/Nadin_Kesso/Home/Lessons/lesson17/scss/style.scss */
+.box .container__slider .slider .slider__wrap .cards .card3 .name h6 {
+  width: 277px;
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+/* line 333, ../../../../../../../../../../../../../Users/nadinkesso/Desktop/Nadin_Kesso/Home/Lessons/lesson17/scss/style.scss */
+.box .container__slider .slider .slider__wrap .cards .card3 .name p {
+  font-size: 18px;
+  font-weight: 600px;
+  margin-bottom: 22px;
+}
+
+/* line 346, ../../../../../../../../../../../../../Users/nadinkesso/Desktop/Nadin_Kesso/Home/Lessons/lesson17/scss/style.scss */
+.box .container__slider .slider .slider__wrap .cards .card4 button {
+  border-radius: 50px;
+  border-style: none;
+  background-color: #FECF6B;
+  text-align: center;
+  padding: 12px 47px;
+  color: #000;
+  text-transform: uppercase;
+  font-size: 18px;
+}
+
+/* line 358, ../../../../../../../../../../../../../Users/nadinkesso/Desktop/Nadin_Kesso/Home/Lessons/lesson17/scss/style.scss */
+.box .container__slider .slider .slider__wrap .cards .card4 .name {
+  position: absolute;
+  bottom: 180px;
+}
+
+/* line 362, ../../../../../../../../../../../../../Users/nadinkesso/Desktop/Nadin_Kesso/Home/Lessons/lesson17/scss/style.scss */
+.box .container__slider .slider .slider__wrap .cards .card4 .name h6 {
+  width: 277px;
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+/* line 370, ../../../../../../../../../../../../../Users/nadinkesso/Desktop/Nadin_Kesso/Home/Lessons/lesson17/scss/style.scss */
+.box .container__slider .slider .slider__wrap .cards .card4 .name p {
+  font-size: 18px;
+  font-weight: 600px;
+  margin-bottom: 22px;
+}
+
+/* line 385, ../../../../../../../../../../../../../Users/nadinkesso/Desktop/Nadin_Kesso/Home/Lessons/lesson17/scss/style.scss */
+.box .product1 .container {
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+}
+
+/* line 390, ../../../../../../../../../../../../../Users/nadinkesso/Desktop/Nadin_Kesso/Home/Lessons/lesson17/scss/style.scss */
+.box .product1 .container .content {
+  margin-top: 400px;
+  margin-bottom: 260px;
+  display: flex;
+  align-items: center;
+}
+
+/* line 399, ../../../../../../../../../../../../../Users/nadinkesso/Desktop/Nadin_Kesso/Home/Lessons/lesson17/scss/style.scss */
+.box .product1 .container .content .text h1 {
+  font-size: 85px;
+  font-weight: 800;
+  margin-bottom: 19px;
+  width: 371px;
+}
+
+/* line 406, ../../../../../../../../../../../../../Users/nadinkesso/Desktop/Nadin_Kesso/Home/Lessons/lesson17/scss/style.scss */
+.box .product1 .container .content .text p {
+  width: 354px;
+  font-size: 16px;
+  margin-bottom: 42px;
+  line-height: 130%;
+}
+
+/* line 413, ../../../../../../../../../../../../../Users/nadinkesso/Desktop/Nadin_Kesso/Home/Lessons/lesson17/scss/style.scss */
+.box .product1 .container .content .text button {
+  padding: 4px 64px;
+  background-color: #000000;
+  color: #fff;
+  text-transform: uppercase;
+  border-radius: 50px;
+  border-style: none;
+  font-size: 13px;
+}
+
+@media all and (max-width: 1586px) {
+  /* line 424, ../../../../../../../../../../../../../Users/nadinkesso/Desktop/Nadin_Kesso/Home/Lessons/lesson17/scss/style.scss */
+  .box .product1 .container .content img {
+    width: 700px;
+  }
+}
+
+/* line 436, ../../../../../../../../../../../../../Users/nadinkesso/Desktop/Nadin_Kesso/Home/Lessons/lesson17/scss/style.scss */
+.box .product2 .container__product2 {
+  display: flex;
+  gap: 94px;
+}
+
+/* line 441, ../../../../../../../../../../../../../Users/nadinkesso/Desktop/Nadin_Kesso/Home/Lessons/lesson17/scss/style.scss */
+.box .product2 .container__product2 .wrap__content {
+  background-color: #BE5A4B;
+  border-radius: 0px 250px 0px 0px;
+  padding-top: 94px;
+  padding-left: 165px;
+  padding-bottom: 94px;
+}
+
+@media all and (max-width: 1586px) {
+  /* line 441, ../../../../../../../../../../../../../Users/nadinkesso/Desktop/Nadin_Kesso/Home/Lessons/lesson17/scss/style.scss */
+  .box .product2 .container__product2 .wrap__content {
+    padding-left: 92px;
+  }
+}
+
+@media all and (max-width: 1241px) {
+  /* line 441, ../../../../../../../../../../../../../Users/nadinkesso/Desktop/Nadin_Kesso/Home/Lessons/lesson17/scss/style.scss */
+  .box .product2 .container__product2 .wrap__content {
+    padding-left: 65px;
+  }
+}
+
+/* line 456, ../../../../../../../../../../../../../Users/nadinkesso/Desktop/Nadin_Kesso/Home/Lessons/lesson17/scss/style.scss */
+.box .product2 .container__product2 .wrap__content .content {
+  display: flex;
+  position: relative;
+  width: 665px;
+}
+
+/* line 463, ../../../../../../../../../../../../../Users/nadinkesso/Desktop/Nadin_Kesso/Home/Lessons/lesson17/scss/style.scss */
+.box .product2 .container__product2 .wrap__content .content .text h1 {
+  font-size: 85px;
+  font-weight: 800;
+  padding-bottom: 44px;
+  width: 371px;
+}
+
+/* line 470, ../../../../../../../../../../../../../Users/nadinkesso/Desktop/Nadin_Kesso/Home/Lessons/lesson17/scss/style.scss */
+.box .product2 .container__product2 .wrap__content .content .text .text {
+  width: 277px;
+}
+
+/* line 473, ../../../../../../../../../../../../../Users/nadinkesso/Desktop/Nadin_Kesso/Home/Lessons/lesson17/scss/style.scss */
+.box .product2 .container__product2 .wrap__content .content .text .text h6 {
+  font-size: 42px;
+  padding-bottom: 14px;
+  font-weight: 600;
+}
+
+/* line 479, ../../../../../../../../../../../../../Users/nadinkesso/Desktop/Nadin_Kesso/Home/Lessons/lesson17/scss/style.scss */
+.box .product2 .container__product2 .wrap__content .content .text .text p {
+  font-size: 16px;
+  margin-bottom: 42px;
+  line-height: 140%;
+}
+
+/* line 486, ../../../../../../../../../../../../../Users/nadinkesso/Desktop/Nadin_Kesso/Home/Lessons/lesson17/scss/style.scss */
+.box .product2 .container__product2 .wrap__content .content .text .text h5 {
+  padding-bottom: 46px;
+}
+
+/* line 490, ../../../../../../../../../../../../../Users/nadinkesso/Desktop/Nadin_Kesso/Home/Lessons/lesson17/scss/style.scss */
+.box .product2 .container__product2 .wrap__content .content .text .text button {
+  padding: 4px 64px;
+  background-color: #000000;
+  color: #fff;
+  text-transform: uppercase;
+  border-radius: 50px;
+  border-style: none;
+  font-size: 13px;
+}
+
+/* line 504, ../../../../../../../../../../../../../Users/nadinkesso/Desktop/Nadin_Kesso/Home/Lessons/lesson17/scss/style.scss */
+.box .product2 .container__product2 .wrap__content .content img {
+  position: absolute;
+  bottom: -170px;
+  left: 290px;
+}
+
+/* line 514, ../../../../../../../../../../../../../Users/nadinkesso/Desktop/Nadin_Kesso/Home/Lessons/lesson17/scss/style.scss */
+.box .product2 .container__product2 .wrap__list {
+  width: 285px;
+  padding-top: 84px;
+  padding-bottom: 120px;
+}
+
+/* line 519, ../../../../../../../../../../../../../Users/nadinkesso/Desktop/Nadin_Kesso/Home/Lessons/lesson17/scss/style.scss */
+.box .product2 .container__product2 .wrap__list > p {
+  text-transform: uppercase;
+  font-size: 21px;
+  margin-bottom: 91px;
+  line-height: 140%;
+}
+
+/* line 526, ../../../../../../../../../../../../../Users/nadinkesso/Desktop/Nadin_Kesso/Home/Lessons/lesson17/scss/style.scss */
+.box .product2 .container__product2 .wrap__list div {
+  width: 255px;
+}
+
+/* line 530, ../../../../../../../../../../../../../Users/nadinkesso/Desktop/Nadin_Kesso/Home/Lessons/lesson17/scss/style.scss */
+.box .product2 .container__product2 .wrap__list div p {
+  line-height: 150%;
+  border-bottom: #000 solid 1px;
+  position: relative;
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 36px;
+}
+
+/* line 538, ../../../../../../../../../../../../../Users/nadinkesso/Desktop/Nadin_Kesso/Home/Lessons/lesson17/scss/style.scss */
+.box .product2 .container__product2 .wrap__list div p::after {
+  content: attr(data-amount);
+  font-size: 16px;
+  position: absolute;
+  bottom: 30px;
+  font-weight: 400;
+}
+
+/* line 552, ../../../../../../../../../../../../../Users/nadinkesso/Desktop/Nadin_Kesso/Home/Lessons/lesson17/scss/style.scss */
+.choose {
+  background-color: #E9A8C6;
+}
+
+/* line 557, ../../../../../../../../../../../../../Users/nadinkesso/Desktop/Nadin_Kesso/Home/Lessons/lesson17/scss/style.scss */
+.choose .container .wrap {
+  flex-direction: row;
+  padding: 128px 0;
+  text-align: center;
+  position: relative;
+}
+
+/* line 563, ../../../../../../../../../../../../../Users/nadinkesso/Desktop/Nadin_Kesso/Home/Lessons/lesson17/scss/style.scss */
+.choose .container .wrap h5 {
+  font-size: 21px;
+  text-transform: uppercase;
+  line-height: 150%;
+  width: 103px;
+  position: absolute;
+  left: 50%;
+  margin-left: -50px;
+}
+
+/* line 573, ../../../../../../../../../../../../../Users/nadinkesso/Desktop/Nadin_Kesso/Home/Lessons/lesson17/scss/style.scss */
+.choose .container .wrap .chooses {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 39px;
+}
+
+/* line 578, ../../../../../../../../../../../../../Users/nadinkesso/Desktop/Nadin_Kesso/Home/Lessons/lesson17/scss/style.scss */
+.choose .container .wrap .chooses .choose1 {
+  width: 518px;
+}
+
+/* line 581, ../../../../../../../../../../../../../Users/nadinkesso/Desktop/Nadin_Kesso/Home/Lessons/lesson17/scss/style.scss */
+.choose .container .wrap .chooses .choose1 img {
+  margin-bottom: 25px;
+}
+
+/* line 585, ../../../../../../../../../../../../../Users/nadinkesso/Desktop/Nadin_Kesso/Home/Lessons/lesson17/scss/style.scss */
+.choose .container .wrap .chooses .choose1 h6 {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 18px;
+}
+
+/* line 591, ../../../../../../../../../../../../../Users/nadinkesso/Desktop/Nadin_Kesso/Home/Lessons/lesson17/scss/style.scss */
+.choose .container .wrap .chooses .choose1 p {
+  width: 343px;
+  font-size: 16px;
+  line-height: 150%;
+  margin: 0 auto;
+  font-weight: 400;
+}
+
+/* line 600, ../../../../../../../../../../../../../Users/nadinkesso/Desktop/Nadin_Kesso/Home/Lessons/lesson17/scss/style.scss */
+.choose .container .wrap .chooses .choose2 {
+  width: 518px;
+}
+
+/* line 603, ../../../../../../../../../../../../../Users/nadinkesso/Desktop/Nadin_Kesso/Home/Lessons/lesson17/scss/style.scss */
+.choose .container .wrap .chooses .choose2 img {
+  margin-bottom: 25px;
+}
+
+/* line 607, ../../../../../../../../../../../../../Users/nadinkesso/Desktop/Nadin_Kesso/Home/Lessons/lesson17/scss/style.scss */
+.choose .container .wrap .chooses .choose2 h6 {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 18px;
+}
+
+/* line 613, ../../../../../../../../../../../../../Users/nadinkesso/Desktop/Nadin_Kesso/Home/Lessons/lesson17/scss/style.scss */
+.choose .container .wrap .chooses .choose2 p {
+  width: 343px;
+  font-size: 16px;
+  line-height: 150%;
+  margin: 0 auto;
+  font-weight: 400;
+}
+
+/* line 630, ../../../../../../../../../../../../../Users/nadinkesso/Desktop/Nadin_Kesso/Home/Lessons/lesson17/scss/style.scss */
+.box__inner .product3 {
+  background-color: #F5AFB9;
+}
+
+/* line 633, ../../../../../../../../../../../../../Users/nadinkesso/Desktop/Nadin_Kesso/Home/Lessons/lesson17/scss/style.scss */
+.box__inner .product3 .container {
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+  position: relative;
+}
+
+/* line 641, ../../../../../../../../../../../../../Users/nadinkesso/Desktop/Nadin_Kesso/Home/Lessons/lesson17/scss/style.scss */
+.box__inner .product3 .container > img {
+  position: absolute;
+  top: 130px;
+  left: 190px;
+  z-index: 1;
+}
+
+@media all and (max-width: 1586px) {
+  /* line 641, ../../../../../../../../../../../../../Users/nadinkesso/Desktop/Nadin_Kesso/Home/Lessons/lesson17/scss/style.scss */
+  .box__inner .product3 .container > img {
+    width: 200px;
+  }
+}
+
+/* line 654, ../../../../../../../../../../../../../Users/nadinkesso/Desktop/Nadin_Kesso/Home/Lessons/lesson17/scss/style.scss */
+.box__inner .product3 .container .content {
+  z-index: 0;
+  margin-top: 251px;
+  margin-bottom: 260px;
+  display: flex;
+  align-items: center;
+}
+
+/* line 664, ../../../../../../../../../../../../../Users/nadinkesso/Desktop/Nadin_Kesso/Home/Lessons/lesson17/scss/style.scss */
+.box__inner .product3 .container .content .text h1 {
+  font-size: 85px;
+  font-weight: 800;
+  margin-bottom: 19px;
+  width: 371px;
+}
+
+/* line 671, ../../../../../../../../../../../../../Users/nadinkesso/Desktop/Nadin_Kesso/Home/Lessons/lesson17/scss/style.scss */
+.box__inner .product3 .container .content .text p {
+  width: 354px;
+  font-size: 16px;
+  margin-bottom: 42px;
+  line-height: 130%;
+}
+
+/* line 678, ../../../../../../../../../../../../../Users/nadinkesso/Desktop/Nadin_Kesso/Home/Lessons/lesson17/scss/style.scss */
+.box__inner .product3 .container .content .text button {
+  padding: 4px 64px;
+  background-color: #000000;
+  color: #fff;
+  text-transform: uppercase;
+  border-radius: 50px;
+  border-style: none;
+  font-size: 13px;
+}
+
+@media all and (max-width: 1586px) {
+  /* line 691, ../../../../../../../../../../../../../Users/nadinkesso/Desktop/Nadin_Kesso/Home/Lessons/lesson17/scss/style.scss */
+  .box__inner .product3 .container .content img {
+    width: 700px;
+  }
+}
+
+/* line 702, ../../../../../../../../../../../../../Users/nadinkesso/Desktop/Nadin_Kesso/Home/Lessons/lesson17/scss/style.scss */
+.box__inner .product4 .container__product4 {
+  display: flex;
+  gap: 15px;
+  background-color: #F5AFB9;
+}
+
+/* line 708, ../../../../../../../../../../../../../Users/nadinkesso/Desktop/Nadin_Kesso/Home/Lessons/lesson17/scss/style.scss */
+.box__inner .product4 .container__product4 .wrap__content {
+  background-color: #ABAFD6;
+  border-radius: 0px 250px 0px 0px;
+  padding-top: 94px;
+  padding-left: 165px;
+  padding-bottom: 94px;
+}
+
+@media all and (max-width: 1586px) {
+  /* line 708, ../../../../../../../../../../../../../Users/nadinkesso/Desktop/Nadin_Kesso/Home/Lessons/lesson17/scss/style.scss */
+  .box__inner .product4 .container__product4 .wrap__content {
+    padding-left: 92px;
+  }
+}
+
+@media all and (max-width: 1241px) {
+  /* line 708, ../../../../../../../../../../../../../Users/nadinkesso/Desktop/Nadin_Kesso/Home/Lessons/lesson17/scss/style.scss */
+  .box__inner .product4 .container__product4 .wrap__content {
+    padding-left: 65px;
+  }
+}
+
+/* line 723, ../../../../../../../../../../../../../Users/nadinkesso/Desktop/Nadin_Kesso/Home/Lessons/lesson17/scss/style.scss */
+.box__inner .product4 .container__product4 .wrap__content .content {
+  display: flex;
+  position: relative;
+  width: 665px;
+}
+
+/* line 730, ../../../../../../../../../../../../../Users/nadinkesso/Desktop/Nadin_Kesso/Home/Lessons/lesson17/scss/style.scss */
+.box__inner .product4 .container__product4 .wrap__content .content .text h1 {
+  font-size: 85px;
+  font-weight: 800;
+  padding-bottom: 50px;
+}
+
+/* line 736, ../../../../../../../../../../../../../Users/nadinkesso/Desktop/Nadin_Kesso/Home/Lessons/lesson17/scss/style.scss */
+.box__inner .product4 .container__product4 .wrap__content .content .text .text {
+  width: 332px;
+}
+
+/* line 739, ../../../../../../../../../../../../../Users/nadinkesso/Desktop/Nadin_Kesso/Home/Lessons/lesson17/scss/style.scss */
+.box__inner .product4 .container__product4 .wrap__content .content .text .text h6 {
+  font-size: 42px;
+  padding-bottom: 66px;
+  font-weight: 600;
+}
+
+/* line 745, ../../../../../../../../../../../../../Users/nadinkesso/Desktop/Nadin_Kesso/Home/Lessons/lesson17/scss/style.scss */
+.box__inner .product4 .container__product4 .wrap__content .content .text .text p {
+  font-size: 16px;
+  margin-bottom: 42px;
+  line-height: 140%;
+}
+
+/* line 752, ../../../../../../../../../../../../../Users/nadinkesso/Desktop/Nadin_Kesso/Home/Lessons/lesson17/scss/style.scss */
+.box__inner .product4 .container__product4 .wrap__content .content .text .text h5 {
+  padding-bottom: 46px;
+}
+
+/* line 756, ../../../../../../../../../../../../../Users/nadinkesso/Desktop/Nadin_Kesso/Home/Lessons/lesson17/scss/style.scss */
+.box__inner .product4 .container__product4 .wrap__content .content .text .text button {
+  padding: 4px 64px;
+  background-color: #000000;
+  color: #fff;
+  text-transform: uppercase;
+  border-radius: 50px;
+  border-style: none;
+  font-size: 13px;
+}
+
+/* line 770, ../../../../../../../../../../../../../Users/nadinkesso/Desktop/Nadin_Kesso/Home/Lessons/lesson17/scss/style.scss */
+.box__inner .product4 .container__product4 .wrap__content .content img {
+  position: absolute;
+  bottom: -80px;
+  left: 290px;
+}
+
+/* line 778, ../../../../../../../../../../../../../Users/nadinkesso/Desktop/Nadin_Kesso/Home/Lessons/lesson17/scss/style.scss */
+.box__inner .product4 .container__product4 .wrap__list {
+  background-color: #EC4844;
+  width: 445px;
+  padding: 55px;
+  text-align: center;
+}
+
+/* line 785, ../../../../../../../../../../../../../Users/nadinkesso/Desktop/Nadin_Kesso/Home/Lessons/lesson17/scss/style.scss */
+.box__inner .product4 .container__product4 .wrap__list img {
+  margin-bottom: 40px;
+}
+
+/* line 789, ../../../../../../../../../../../../../Users/nadinkesso/Desktop/Nadin_Kesso/Home/Lessons/lesson17/scss/style.scss */
+.box__inner .product4 .container__product4 .wrap__list > p {
+  font-size: 42px;
+  font-weight: 800;
+  margin-bottom: 30px;
+  line-height: 140%;
+  width: 330px;
+  text-align: center;
+}
+
+/* line 799, ../../../../../../../../../../../../../Users/nadinkesso/Desktop/Nadin_Kesso/Home/Lessons/lesson17/scss/style.scss */
+.box__inner .product4 .container__product4 .wrap__list button {
+  padding: 24px 75px;
+  background-color: #000000;
+  color: #fff;
+  text-transform: uppercase;
+  border-radius: 50px;
+  border-style: none;
+  font-size: 13px;
+}
+
+/* line 814, ../../../../../../../../../../../../../Users/nadinkesso/Desktop/Nadin_Kesso/Home/Lessons/lesson17/scss/style.scss */
+.box__inner .product5 {
+  background-color: #F5AFB9;
+}
+
+/* line 817, ../../../../../../../../../../../../../Users/nadinkesso/Desktop/Nadin_Kesso/Home/Lessons/lesson17/scss/style.scss */
+.box__inner .product5 .container {
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+  position: relative;
+}
+
+/* line 825, ../../../../../../../../../../../../../Users/nadinkesso/Desktop/Nadin_Kesso/Home/Lessons/lesson17/scss/style.scss */
+.box__inner .product5 .container > img {
+  position: absolute;
+  top: 130px;
+  left: 190px;
+  z-index: 1;
+}
+
+@media all and (max-width: 1586px) {
+  /* line 825, ../../../../../../../../../../../../../Users/nadinkesso/Desktop/Nadin_Kesso/Home/Lessons/lesson17/scss/style.scss */
+  .box__inner .product5 .container > img {
+    width: 200px;
+  }
+}
+
+/* line 837, ../../../../../../../../../../../../../Users/nadinkesso/Desktop/Nadin_Kesso/Home/Lessons/lesson17/scss/style.scss */
+.box__inner .product5 .container .content {
+  z-index: 0;
+  margin-top: 251px;
+  margin-bottom: 260px;
+  display: flex;
+  align-items: center;
+}
+
+@media all and (max-width: 1586px) {
+  /* line 837, ../../../../../../../../../../../../../Users/nadinkesso/Desktop/Nadin_Kesso/Home/Lessons/lesson17/scss/style.scss */
+  .box__inner .product5 .container .content {
+    margin-bottom: 100px;
+  }
+}
+
+/* line 850, ../../../../../../../../../../../../../Users/nadinkesso/Desktop/Nadin_Kesso/Home/Lessons/lesson17/scss/style.scss */
+.box__inner .product5 .container .content .text {
+  margin-bottom: 140px;
+}
+
+/* line 853, ../../../../../../../../../../../../../Users/nadinkesso/Desktop/Nadin_Kesso/Home/Lessons/lesson17/scss/style.scss */
+.box__inner .product5 .container .content .text h1 {
+  font-size: 85px;
+  font-weight: 800;
+  margin-bottom: 19px;
+  width: 371px;
+}
+
+/* line 860, ../../../../../../../../../../../../../Users/nadinkesso/Desktop/Nadin_Kesso/Home/Lessons/lesson17/scss/style.scss */
+.box__inner .product5 .container .content .text p {
+  width: 354px;
+  font-size: 16px;
+  margin-bottom: 42px;
+  line-height: 130%;
+}
+
+/* line 867, ../../../../../../../../../../../../../Users/nadinkesso/Desktop/Nadin_Kesso/Home/Lessons/lesson17/scss/style.scss */
+.box__inner .product5 .container .content .text button {
+  padding: 4px 64px;
+  background-color: #000000;
+  color: #fff;
+  text-transform: uppercase;
+  border-radius: 50px;
+  border-style: none;
+  font-size: 13px;
+}
+
+@media all and (max-width: 1586px) {
+  /* line 878, ../../../../../../../../../../../../../Users/nadinkesso/Desktop/Nadin_Kesso/Home/Lessons/lesson17/scss/style.scss */
+  .box__inner .product5 .container .content img {
+    width: 700px;
+  }
+}
+
+/* line 890, ../../../../../../../../../../../../../Users/nadinkesso/Desktop/Nadin_Kesso/Home/Lessons/lesson17/scss/style.scss */
+.footer {
+  background-color: #BE5A4B;
+}
+
+/* line 893, ../../../../../../../../../../../../../Users/nadinkesso/Desktop/Nadin_Kesso/Home/Lessons/lesson17/scss/style.scss */
+.footer .content {
+  padding: 135px 150px 0 150px;
+  flex-direction: row;
+  text-align: center;
+}
+
+@media all and (max-width: 1586px) {
+  /* line 893, ../../../../../../../../../../../../../Users/nadinkesso/Desktop/Nadin_Kesso/Home/Lessons/lesson17/scss/style.scss */
+  .footer .content {
+    padding: 91px 91px 0 91px;
+  }
+}
+
+@media all and (max-width: 1241px) {
+  /* line 893, ../../../../../../../../../../../../../Users/nadinkesso/Desktop/Nadin_Kesso/Home/Lessons/lesson17/scss/style.scss */
+  .footer .content {
+    padding: 65px 65px 0 65px;
+  }
+}
+
+/* line 908, ../../../../../../../../../../../../../Users/nadinkesso/Desktop/Nadin_Kesso/Home/Lessons/lesson17/scss/style.scss */
+.footer .content .logo img {
+  margin-bottom: 116px;
+}
+
+/* line 913, ../../../../../../../../../../../../../Users/nadinkesso/Desktop/Nadin_Kesso/Home/Lessons/lesson17/scss/style.scss */
+.footer .content .nav {
+  width: 474px;
+  display: flex;
+  text-align: left;
+  margin-right: 94px;
+}
+
+/* line 919, ../../../../../../../../../../../../../Users/nadinkesso/Desktop/Nadin_Kesso/Home/Lessons/lesson17/scss/style.scss */
+.footer .content .nav .contact {
+  flex-direction: row;
+}
+
+/* line 922, ../../../../../../../../../../../../../Users/nadinkesso/Desktop/Nadin_Kesso/Home/Lessons/lesson17/scss/style.scss */
+.footer .content .nav .contact h4 {
+  font-size: 65px;
+  font-weight: 800;
+  margin-bottom: 46px;
+}
+
+/* line 928, ../../../../../../../../../../../../../Users/nadinkesso/Desktop/Nadin_Kesso/Home/Lessons/lesson17/scss/style.scss */
+.footer .content .nav .contact .input {
+  width: 475px;
+  margin-bottom: 113px;
+}
+
+/* line 932, ../../../../../../../../../../../../../Users/nadinkesso/Desktop/Nadin_Kesso/Home/Lessons/lesson17/scss/style.scss */
+.footer .content .nav .contact .input p {
+  line-height: 170%;
+  text-align: left;
+  border-bottom: #000 solid 1px;
+}
+
+/* line 940, ../../../../../../../../../../../../../Users/nadinkesso/Desktop/Nadin_Kesso/Home/Lessons/lesson17/scss/style.scss */
+.footer .content .nav .contact .follow h6 {
+  font-size: 32px;
+  margin-bottom: 21px;
+}
+
+/* line 946, ../../../../../../../../../../../../../Users/nadinkesso/Desktop/Nadin_Kesso/Home/Lessons/lesson17/scss/style.scss */
+.footer .content .nav .contact .follow .logos img {
+  margin-bottom: 60px;
+}
+
+/* line 957, ../../../../../../../../../../../../../Users/nadinkesso/Desktop/Nadin_Kesso/Home/Lessons/lesson17/scss/style.scss */
+.footer .content .nav .menu1 {
+  margin-left: 94px;
+}
+
+/* line 961, ../../../../../../../../../../../../../Users/nadinkesso/Desktop/Nadin_Kesso/Home/Lessons/lesson17/scss/style.scss */
+.footer .content .nav .menu1 .list {
+  width: 285px;
+  margin-bottom: 60px;
+}
+
+/* line 965, ../../../../../../../../../../../../../Users/nadinkesso/Desktop/Nadin_Kesso/Home/Lessons/lesson17/scss/style.scss */
+.footer .content .nav .menu1 .list h6 {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 21px;
+}
+
+/* line 971, ../../../../../../../../../../../../../Users/nadinkesso/Desktop/Nadin_Kesso/Home/Lessons/lesson17/scss/style.scss */
+.footer .content .nav .menu1 .list p {
+  font-size: 15px;
+  text-transform: uppercase;
+  margin-bottom: 21px;
+}
+
+/* line 979, ../../../../../../../../../../../../../Users/nadinkesso/Desktop/Nadin_Kesso/Home/Lessons/lesson17/scss/style.scss */
+.footer .content .nav .menu2 {
+  width: 285px;
+}
+
+/* line 982, ../../../../../../../../../../../../../Users/nadinkesso/Desktop/Nadin_Kesso/Home/Lessons/lesson17/scss/style.scss */
+.footer .content .nav .menu2 .list {
+  width: 285px;
+  margin-bottom: 60px;
+}
+
+/* line 986, ../../../../../../../../../../../../../Users/nadinkesso/Desktop/Nadin_Kesso/Home/Lessons/lesson17/scss/style.scss */
+.footer .content .nav .menu2 .list h6 {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 21px;
+}
+
+/* line 992, ../../../../../../../../../../../../../Users/nadinkesso/Desktop/Nadin_Kesso/Home/Lessons/lesson17/scss/style.scss */
+.footer .content .nav .menu2 .list p {
+  font-size: 15px;
+  text-transform: uppercase;
+  margin-bottom: 21px;
+}
+
+/* line 1004, ../../../../../../../../../../../../../Users/nadinkesso/Desktop/Nadin_Kesso/Home/Lessons/lesson17/scss/style.scss */
+.footer .clients {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 150px;
+  padding-bottom: 60px;
+}
+
+/*# sourceMappingURL=style.css.map */

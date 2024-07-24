@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "mixin.css",
+	"sources": [
+		"../scss/mixin.scss"
+	],
+	"sourcesContent": [
+		"@mixin media($w) {\n  @media all and (max-width: $w) {\n    @content\n  }\n}"
+	],
+	"names": [],
+	"mappings": ""
+}
