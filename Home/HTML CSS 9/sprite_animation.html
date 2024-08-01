@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    @keyframes MyAnimation2 {
+      from {
+        background: url('1.png') 0 0;
+      }
+
+      to {
+        background: url('1.png') -800px 0;
+      }
+    }
+
+    @keyframes MyAnimation1 {
+      from {
+        background: url('2.png') 0 0;
+      }
+
+      to {
+        background: url('2.png') -624px 0;
+      }
+    }
+
+
+
+
+    .sprite {
+      width: 77px;
+      height: 400px;
+      animation: MyAnimation2 0.6s steps(10) infinite;
+    }
+
+    .sprite_man {
+      width: 112px;
+      height: 209px;
+      animation: MyAnimation1 1s steps(6) infinite;
+    }
+  </style>
+</head>
+
+<body>
+  <a href="all.html">&larr; Назад</a>
+  <br>
+  <br>
+  <div class='sprite'></div>
+  <br>
+  <hr>
+  <br>
+  <div class='sprite_man'></div>
+
+
+</body>
+
+</html>
